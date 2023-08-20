@@ -1,4 +1,4 @@
 User-agent: *
 Disallow:
 
-Sitemap: https://PieceZhang.github.io/blog/sitemap.xml
+Sitemap: https://PieceZhang.github.io/sitemap.xml
