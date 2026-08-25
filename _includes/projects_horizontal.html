@@ -1,41 +1,40 @@
-<div class="card-item col-12">
-  {%- if project.redirect -%}
-  <a href="{{ project.redirect }}">
-  {%- else -%}
-  <a href="{{ project.url | relative_url }}">
-  {%- endif -%}
-    <div class="card hoverable project-card">
-      <div class="row g-0 align-items-stretch">
-        {%- if project.img -%}
-        <div class="card-img col-md-5 project-card-image">
-          {%- assign project_alt = project.img_alt | default: project.title -%}
-          {% include figure.html path=project.img alt=project_alt %}
-        </div>
-        <div class="col-md-7 d-flex align-items-center">
-        {%- else -%}
-        <div class="col-md-12">
-        {%- endif -%}
-          <div class="card-body">
-            <h3 class="card-title">{{ project.title }}</h3>
-            <p class="card-text">{{ project.description }}</p>
-            <div class="row ml-1 mr-1 p-0">
-              {%- if project.github -%}
-              <div class="github-icon">
-                <div class="icon" data-toggle="tooltip" title="Code Repository">
-                  <a href="{{ project.github }}"><i class="fab fa-github gh-icon"></i></a>
-                </div>
-                {%- if project.github_stars -%}
-                <span class="stars" data-toggle="tooltip" title="GitHub Stars">
-                  <i class="fas fa-star"></i>
-                  <span id="{{ project.github_stars }}-stars"></span>
-                </span>
-                {%- endif -%}
-              </div>
-              {%- endif -%}
-            </div>
+{%- if project.redirect -%}
+  {%- assign project_link = project.redirect -%}
+{%- else -%}
+  {%- assign project_link = project.url | relative_url -%}
+{%- endif -%}
+
+<div class="card-item col-12 px-0">
+  <article class="card project-card">
+    <div class="row no-gutters align-items-stretch">
+      <div class="{% if project.img %}col-md-5{% else %}col-12{% endif %} project-card-copy">
+        <div class="project-card-content">
+          <span class="project-card-kicker">Open-source project</span>
+          <h3 class="card-title">
+            <a href="{{ project_link }}">{{ project.title }}</a>
+          </h3>
+          <p class="card-text">{{ project.description }}</p>
+          <div class="project-card-actions">
+            <a class="project-card-link project-card-details" href="{{ project_link }}">
+              Details <i class="fas fa-arrow-right" aria-hidden="true"></i>
+            </a>
+            {%- if project.github %}
+            <a class="project-card-link project-card-github" href="{{ project.github }}" target="_blank" rel="noopener noreferrer">
+              <i class="fab fa-github" aria-hidden="true"></i> GitHub
+            </a>
+            {%- endif %}
           </div>
         </div>
       </div>
+
+      {%- if project.img %}
+      <div class="card-img col-md-7 project-card-image">
+        <a class="project-card-image-link" href="{{ project_link }}" aria-label="View {{ project.title }} project details">
+          {%- assign project_alt = project.img_alt | default: project.title -%}
+          {% include figure.html path=project.img alt=project_alt %}
+        </a>
+      </div>
+      {%- endif %}
     </div>
-  </a>
+  </article>
 </div>
