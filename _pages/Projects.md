@@ -2,10 +2,10 @@
 layout: page
 title: Projects
 permalink: /projects/
-description: Representative projects in robotic ultrasound, multimodal learning, and medical robotics.
+description: Selected open-source projects in robotic ultrasound, medical AI, physical modeling, and embedded systems.
 nav: true
 nav_order: 3
-display_categories: [research]
+display_categories: [research, engineering]
 horizontal: false
 ---
 

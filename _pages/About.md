@@ -29,7 +29,12 @@ My current work develops adaptive robotic ultrasound systems that integrate imag
 - Medical image tracking, registration, and restoration
 - Multimodal datasets and foundation models for medical robotics
 
-## Current projects
+## Selected open-source projects
 
-- **US-PPNR** — a multimodal dataset for autonomous probe placement and needle retrieval in ultrasound-guided liver biopsy, contributed to [NVIDIA Open-H-Embodiment](https://open-h.github.io/open-h-embodiment/).
-- **Intelligent VLM/VLA System for Robotic Ultrasound-Guided Needle Intervention** — a ROS 2 system integrating ultrasound imaging, dual-arm control, optical tracking, VLM/VLA models, and real-time motion planning.
+- **[US-PPNR Dataset](/projects/1_project/)** — 2,546 synchronized multimodal trajectories for autonomous ultrasound probe placement and needle retrieval, contributed to [NVIDIA Open-H-Embodiment](https://open-h.github.io/open-h-embodiment/).
+- **[SonoPilot and RUGANI](/projects/2_project/)** — a vision-language-action system and reproducible ROS 2 platform for adaptive robotic ultrasound-guided needle intervention.
+- **[MPT-CataBlur](/projects/7_project/)** — the CVPR 2024 codebase and CataBlur dataset for microscopy defocus deblurring.
+- **[MrTrack](/projects/8_project/)** — the MICCAI 2025 codebase for tracking needles undergoing rapid reciprocating motion in ultrasound.
+- **[MotionDCTrack](/projects/9_project/)** — the ICRA 2025 dual-camera tracker, released with code, model weights, and endoscopy data.
+- **[NeedleShapeModeling](/projects/10_project/)** — physics-based 3D needle-deflection simulation and real-time force/torque-driven shape estimation.
+- **[STM32 CAN Motor Driver](/projects/11_project/)** — embedded firmware for controlling RoboMaster M3508, M2006, and GM6020 motors over CAN.
