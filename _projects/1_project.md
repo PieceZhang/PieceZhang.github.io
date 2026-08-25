@@ -2,6 +2,8 @@
 layout: page
 title: US-PPNR Dataset
 description: Multimodal trajectories for autonomous probe placement and needle retrieval in ultrasound-guided liver biopsy.
+img: assets/img/projects/us-ppnr-aigc.jpg
+img_alt: Multimodal robotic ultrasound data collection system
 importance: 1
 category: research
 github: https://github.com/PieceZhang/US-PPNR-Dataset

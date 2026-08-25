@@ -2,6 +2,8 @@
 layout: page
 title: MrTrack
 description: MICCAI 2025 code for robust ultrasound needle tracking under rapid reciprocating motion.
+img: assets/img/projects/mrtrack.jpg
+img_alt: MrTrack register Mamba architecture for ultrasound needle tracking
 importance: 4
 category: research
 github: https://github.com/PieceZhang/MrTrack

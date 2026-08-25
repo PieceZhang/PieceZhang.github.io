@@ -2,6 +2,8 @@
 layout: page
 title: MPT-CataBlur
 description: CVPR 2024 code and data for microscopy defocus deblurring with a multi-pyramid transformer and contrastive learning.
+img: assets/img/projects/mpt-catablur.jpg
+img_alt: MPT microscopy defocus deblurring architecture
 importance: 3
 category: research
 github: https://github.com/PieceZhang/MPT-CataBlur

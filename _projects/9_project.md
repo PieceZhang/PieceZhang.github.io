@@ -2,6 +2,8 @@
 layout: page
 title: MotionDCTrack
 description: ICRA 2025 dual-camera tracking code, weights, and data for endoscope motion analysis.
+img: assets/img/projects/motiondctrack.jpg
+img_alt: MotionDCTrack dual-camera endoscope tracking architecture
 importance: 5
 category: research
 github: https://github.com/PieceZhang/MotionDCTrack

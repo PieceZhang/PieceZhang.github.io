@@ -1,16 +1,17 @@
-<div class="card-item col">
+<div class="card-item col-12">
   {%- if project.redirect -%}
   <a href="{{ project.redirect }}">
   {%- else -%}
   <a href="{{ project.url | relative_url }}">
   {%- endif -%}
-    <div class="card hoverable">
-      <div class="row g-0">
+    <div class="card hoverable project-card">
+      <div class="row g-0 align-items-stretch">
         {%- if project.img -%}
-        <div class="card-img col-md-6">
-          {% include figure.html path=project.img alt="project thumbnail" %}
+        <div class="card-img col-md-5 project-card-image">
+          {%- assign project_alt = project.img_alt | default: project.title -%}
+          {% include figure.html path=project.img alt=project_alt %}
         </div>
-        <div class="col-md-6">
+        <div class="col-md-7 d-flex align-items-center">
         {%- else -%}
         <div class="col-md-12">
         {%- endif -%}

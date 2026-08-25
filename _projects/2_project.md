@@ -2,6 +2,8 @@
 layout: page
 title: SonoPilot and RUGANI
 description: A vision-language-action system and reproducible ROS 2 platform for adaptive robotic ultrasound-guided needle intervention.
+img: assets/img/projects/sonopilot-vla.jpg
+img_alt: SonoPilot vision-language-action system architecture
 importance: 2
 category: research
 github: https://github.com/PieceZhang/autonomous_needle_insertion

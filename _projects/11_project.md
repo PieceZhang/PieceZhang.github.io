@@ -2,6 +2,8 @@
 layout: page
 title: STM32 CAN Motor Driver
 description: Embedded firmware for controlling RoboMaster M3508, M2006, and GM6020 motors over CAN.
+img: assets/img/projects/stm32-can-aigc.jpg
+img_alt: STM32 controller connected to three robotics motors over CAN
 importance: 7
 category: engineering
 github: https://github.com/PieceZhang/STM32-CAN-M3508-M2006-GM6020

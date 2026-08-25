@@ -2,6 +2,8 @@
 layout: page
 title: NeedleShapeModeling
 description: Physics-based 3D needle-deflection simulation and real-time force/torque-driven shape estimation.
+img: assets/img/projects/needle-shape-aigc.jpg
+img_alt: Physics-based needle deflection and force-torque modeling illustration
 importance: 6
 category: research
 github: https://github.com/PieceZhang/NeedleShapeModeling
