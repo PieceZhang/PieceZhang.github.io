@@ -2,24 +2,34 @@
 layout: about
 title: About
 permalink: /
-subtitle: The Chinese University of Hong Kong, PhD in Mechanical and Automation Engineering, <a href='https://sites.google.com/view/surgicalroboticslab/home'>SRIL</a>.
+subtitle: PhD Candidate in Mechanical and Automation Engineering at <a href='https://www.cuhk.edu.hk/english/index.html'>The Chinese University of Hong Kong</a> · <a href='https://sites.google.com/view/surgicalroboticslab/home'>Surgical Robotics and Instrumentation Laboratory</a>
 
 profile:
   align: right
   image: prof_pic.jpg
   image_circular: false # crops the image to make it circular
   address: >
-    <p>zhangyuelin[at]link.cuhk.edu.hk</p>
+    <p>ylzhang[at]mae.cuhk.edu.hk</p>
     <p>swuzyl[at]gmail.com</p>
 
-news: true  # includes a list of news items
-latest_posts: true  # includes a list of the newest posts
+news: false  # includes a list of news items
+latest_posts: false  # includes a list of the newest posts
 selected_papers: true # includes a list of papers marked as "selected={true}"
 social: true  # includes social icons at the bottom of the page
 ---
 
-Write your biography here. Tell the world about yourself. Link to your favorite [subreddit](http://reddit.com). You can put a picture in, too. The code is already in, just name your picture `prof_pic.jpg` and put it in the `img/` folder.
+I am **Yuelin Zhang (张跃麟)**, a PhD candidate in Mechanical and Automation Engineering at The Chinese University of Hong Kong, supervised by **Prof. Shing Shin Cheng**. My research focuses on **vision-language models (VLMs)**, **vision-language-action models (VLAs)**, and **robotic ultrasound**, with an emphasis on intelligent systems for ultrasound-guided intervention.
 
-Put your address / P.O. box / other info right below your picture. You can also disable any of these elements by editing `profile` property of the YAML header of your `_pages/about.md`. Edit `_bibliography/papers.bib` and Jekyll will render your [publications page](/al-folio/publications/) automatically.
+My current work develops adaptive robotic ultrasound systems that integrate image understanding, needle tracking, and closed-loop control. I also work on multimodal datasets and foundation-model research for medical robotics.
 
-Link to your social media connections, too. This theme is set up to use [Font Awesome icons](http://fortawesome.github.io/Font-Awesome/) and [Academicons](https://jpswalsh.github.io/academicons/), like the ones below. Add your Facebook, Twitter, LinkedIn, Google Scholar, or just disable all of them.
+## Research interests
+
+- Vision-language and vision-language-action models
+- Robotic ultrasound and ultrasound-guided intervention
+- Medical image tracking, registration, and restoration
+- Multimodal datasets and foundation models for medical robotics
+
+## Current projects
+
+- **US-PPNR** — a multimodal dataset for autonomous probe placement and needle retrieval in ultrasound-guided liver biopsy, contributed to [NVIDIA Open-H-Embodiment](https://open-h.github.io/open-h-embodiment/).
+- **Intelligent VLM/VLA System for Robotic Ultrasound-Guided Needle Intervention** — a ROS 2 system integrating ultrasound imaging, dual-arm control, optical tracking, VLM/VLA models, and real-time motion planning.
